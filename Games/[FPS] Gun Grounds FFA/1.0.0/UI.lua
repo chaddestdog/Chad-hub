@@ -6,12 +6,10 @@ local Window = Library:CreateWindow{Title = "Chad hub" ,SubTitle = "[FPS] Gun Gr
 local Tabs = {aimbot = Window:CreateTab{Title = "aimbot", Icon = ""}, visuals = Window:CreateTab{Title = "visuals", Icon = ""}, misc = Window:CreateTab{Title = "misc", Icon = ""}};
 local flags = _G.Chad;
 
-do -- Tabs.aimbot 
-    -- aimbot
-    Tabs.aimbot:CreateToggle("a", {Title = "aimbot", Default = false , Callback = function (val) flags.aimbot.aimbot.enabled = val end});
-    Tabs.aimbot:CreateToggle("b", {Title = "psilent", Default = false , Callback = function (val) flags.aimbot.aimbot.psilet = val end});
-    Tabs.aimbot:CreateToggle("c", {Title = "vischeck", Default = false , Callback = function (val) flags.aimbot.aimbot.vischeck = val end});
+-- aimbot
+Tabs.aimbot:CreateToggle("a", {Title = "aimbot", Default = false , Callback = function (val) flags.aimbot.aimbot.enabled = val end});
+Tabs.aimbot:CreateToggle("b", {Title = "psilent", Default = false , Callback = function (val) flags.aimbot.aimbot.psilet = val end});
+Tabs.aimbot:CreateToggle("c", {Title = "vischeck", Default = false , Callback = function (val) flags.aimbot.aimbot.vischeck = val end});
    
-    -- trigger bot
-    Tabs.aimbot:CreateToggle("d", {Title = "triggerbot", Default = false , Callback = function (val) flags.aimbot.triggerbot.enabled = val end});
-end;
+-- trigger bot
+Tabs.aimbot:CreateToggle("d", {Title = "triggerbot", Default = false , Callback = function (val) flags.aimbot.triggerbot.enabled = val end});
