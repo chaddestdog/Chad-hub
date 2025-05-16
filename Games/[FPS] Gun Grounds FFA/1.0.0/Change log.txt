@@ -1,0 +1,11 @@
+Version 1.0.0;
+
+Added [
+   Aimbot,
+   Psilent,
+   Triggerbot
+];
+
+Notes [
+   Triggerbot might NOT work on pc
+];
