@@ -1,6 +1,4 @@
 return {
-
-
-
-
+  "AWP",
+  "KRNL"
 };
