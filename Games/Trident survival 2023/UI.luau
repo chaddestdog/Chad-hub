@@ -11,7 +11,7 @@ local Window = Library:CreateWindow{Title = "Modest hook" ,SubTitle = "Trident s
 local Tabs = {aimbot = Window:CreateTab{Title = "aimbot", Icon = ""}, visuals = Window:CreateTab{Title = "visuals", Icon = ""}, misc = Window:CreateTab{Title = "misc", Icon = ""}};
 local flags = _G.Chad;
 local Services = _G.Services;
-local CurrentCamera = (cloneref(game:GetService("Workspace")).currentcamera);
+local CurrentCamera = (cloneref(game:GetService("Workspace")).CurrentCamera);
 local Lighting = (cloneref(game:GetService("Lighting")));
 
 --> misc <--
